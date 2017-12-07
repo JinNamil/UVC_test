@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
 		mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
-		mToolbar.setTitle("二维码识别");
+		mToolbar.setTitle("종료");
 		mToolbar.setTitleTextColor(Color.WHITE);
 		setSupportActionBar(mToolbar);
 		mToolbar.setNavigationIcon(R.drawable.ic_actionbar_back);
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
 						@Override
 						public void onAnalyzeFailed() {
-							Toast.makeText(MainActivity.this, ("解析二维码失败"), Toast.LENGTH_LONG).show();
+							Toast.makeText(MainActivity.this, ("분석 실패하였습니다."), Toast.LENGTH_LONG).show();
 						}
 					});
 				} catch (Exception e) {

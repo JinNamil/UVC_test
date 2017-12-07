@@ -184,23 +184,23 @@ public class QRScanFragment extends Fragment{
 		mCameraView.setAspectRatio(DEFAULT_WIDTH / (float)DEFAULT_HEIGHT);
 		mCameraView.setCallback(mCallback);
 
-		mImageView = (ImageView) rootView.findViewById(R.id.iv_qr_scan_animate);
-		mAnimation = new TranslateAnimation(Animation.RELATIVE_TO_SELF,
-				Animation.RELATIVE_TO_SELF, 0, 240);
-		mAnimation.setDuration(4000);
+//		mImageView = (ImageView) rootView.findViewById(R.id.iv_qr_scan_animate);
+//		mAnimation = new TranslateAnimation(Animation.RELATIVE_TO_SELF,
+//				Animation.RELATIVE_TO_SELF, 0, 240);
+//		mAnimation.setDuration(4000);
 //        mAnimation.setFillAfter(true);
-
-		initHandler();
-
-		mHandler.post(new Runnable() {
-			@Override
-			public void run() {
-				//设置动画
-				mImageView.startAnimation(mAnimation);
-
-				mHandler.postDelayed(this, 4000);
-			}
-		});
+//
+//		initHandler();
+//
+//		mHandler.post(new Runnable() {
+//			@Override
+//			public void run() {
+//				//设置动画
+//				mImageView.startAnimation(mAnimation);
+//
+//				mHandler.postDelayed(this, 4000);
+//			}
+//		});
 
 		return rootView;
 	}

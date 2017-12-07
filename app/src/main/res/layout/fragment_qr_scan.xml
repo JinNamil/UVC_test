@@ -13,7 +13,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="把二维码/条码放入\n框中, 即可自动扫描"
+                    android:text="Testing_Pie"
                     android:textSize="14sp"
                     android:layout_marginStart="48dp"
                     android:textColor="@color/WHITESMOKE"
@@ -47,13 +47,13 @@
                             android:src="@drawable/border_camera"/>
 
                         <!--动画-->
-                        <ImageView
-                            android:id="@+id/iv_qr_scan_animate"
-                            android:layout_margin="5dp"
-                            android:layout_width="240dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/scan_image"
-                            />
+                        <!--<ImageView-->
+                            <!--android:id="@+id/iv_qr_scan_animate"-->
+                            <!--android:layout_margin="5dp"-->
+                            <!--android:layout_width="240dp"-->
+                            <!--android:layout_height="20dp"-->
+                            <!--android:src="@drawable/scan_image"-->
+                            <!--/>-->
 
                 </RelativeLayout>
 

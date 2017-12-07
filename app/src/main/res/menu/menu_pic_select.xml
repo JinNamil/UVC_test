@@ -2,7 +2,7 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menu_pic_select"
-        android:title="相册选择 "
+        android:title="앨범 "
         app:showAsAction="always"
         />
 
